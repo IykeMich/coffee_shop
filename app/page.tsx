@@ -1,7 +1,13 @@
+import Banner from "./components/Banner";
+import Benefits from "./components/Benefits";
 import BestSeller from "./components/BestSeller";
+import BrewGuide from "./components/BrewGuide";
+import Connected from "./components/Connected";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurCafe from "./components/OurCafe";
+import OurOfferings from "./components/OurOfferings";
 // import Image from "next/image";
 
 export default function Home() {
@@ -14,6 +20,12 @@ export default function Home() {
             <BestSeller />
           </div>
           <OurCafe />
+          <Benefits />
+          <Banner />
+          <OurOfferings />
+          <BrewGuide />
+          <Connected />
+          <Footer />
         </main>
 
   );

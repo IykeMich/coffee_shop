@@ -45,6 +45,17 @@ const data = {
         {id: 6, name: "Mandalkhan Estate Insta Pour", price: 345, size: 250, imageUrl: '/images/product 3.svg'},
         {id: 7, name: "Monsoon Malabar", price: 470, size: 250, imageUrl: '/images/product 4.svg'},
         {id: 8, name: "Monsoon Malabar", price: 470, size: 250, imageUrl: '/images/product 4.svg'},
+    ],
+    benefits: [
+        {id: 1, image:"/images/benefits/benefit 1.svg", title: "speciality coffee", subtitle: "Speciality grade coffees that’s rated above 80+ on taste"},
+        {id: 2, image:"/images/benefits/benefit 2.svg", title: "roasted fresh", subtitle: "Freshly roasted, direct from our roastery"},
+        {id: 3, image:"/images/benefits/benefit 3.svg", title: "responsibly sourced", subtitle: "Organic and biodiverse coffee partners"},
+        {id: 4, image:"/images/benefits/benefit 4.svg", title: "delicious taste", subtitle: "Making great taste accessible"}
+    ],
+    offerings: [
+        {id: 1, image:"/offerings/offering 1.svg", title: "Coffee Beans"},
+        {id: 2, image:"/offerings/offering 2.svg", title: "Coffee Equipments"},
+        {id: 3, image:"/offerings/offering 3.svg", title: "Insta Pour"}
     ]
 }
 
