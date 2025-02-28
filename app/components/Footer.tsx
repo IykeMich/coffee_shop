@@ -4,6 +4,11 @@ import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
+    const email = "ikechukwuogbu321@gmail.com";
+    const subject = "Your Subject";
+    const body = "Your Message";
+
+    const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   return (
     <main id="footer" className='bg-coffee w-full text-[#f5f1e8]'>
         <div>
@@ -30,7 +35,8 @@ const Footer = () => {
 
                         <div className="items-center space-x-3 lg:space-x-5 flex">
                             <MessageSquare className='w-4 md:w-6'/>
-                            <Link href="ikechukwuogbu321@gmail.com" className='text-xs md:text-sm font-light leading-1 cursor-pointer'>Ikechukwuogbu321@gmail.com</Link>
+                            
+                            <Link href={gmailLink} target="_blank" rel="noopener noreferrer" className='text-xs md:text-sm font-light leading-1 cursor-pointer'>Ikechukwuogbu321@gmail.com</Link>
                         </div>
                             
                     </div>
