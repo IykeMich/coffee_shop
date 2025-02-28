@@ -8,7 +8,7 @@ type NavLinks = {
     url: string
 }
 type Products = {
-    id: string
+    id: number
     name: string
     price: number
     size: number
