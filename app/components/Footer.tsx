@@ -1,5 +1,6 @@
 import { Facebook, Instagram, MessageSquare, Phone, Twitter } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -24,12 +25,12 @@ const Footer = () => {
                     <div className="flex flex-col space-y-1 md:space-y-5 text-[#f5f1e8]">
                         <div className="items-center space-x-3 lg:space-x-5 flex">
                             <Phone className='w-4 md:w-6'/>
-                            <p className='text-xs md:text-sm font-light leading-1 cursor-pointer'>+2349039374531</p>
+                            <Link href="tel:+2349039374531" className='text-xs md:text-sm font-light leading-1 cursor-pointer'>+2349039374531</Link>
                         </div>
 
                         <div className="items-center space-x-3 lg:space-x-5 flex">
                             <MessageSquare className='w-4 md:w-6'/>
-                            <p className='text-xs md:text-sm font-light leading-1 cursor-pointer'>Ikechukwuogbu321@gmail.com</p>
+                            <Link href="ikechukwuogbu321@gmail.com" className='text-xs md:text-sm font-light leading-1 cursor-pointer'>Ikechukwuogbu321@gmail.com</Link>
                         </div>
                             
                     </div>
@@ -79,7 +80,8 @@ const Footer = () => {
         </div>
 
         <div className="hidden md:flex justify-between items-center py-6 mx-4">
-            <p className='text-[8px] lg:text-xs'>Developed with &#x1F9E1; by Montana</p>
+            <p className='text-[8px] lg:text-xs'>Developed with &#x1F9E1; by 
+                <span><Link href="tel:+2349039374531">Montana</Link></span></p>
             <p className='text-[8px] lg:text-xs'>© Copyright 2022 | A unit of NISANTPRASHANT</p>
             <p className='text-[8px] lg:text-xs'>Powered by CrawlDepth</p>
         </div>
