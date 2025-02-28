@@ -38,10 +38,10 @@ const HamburgerMenu = () => {
 
             {/* Nav Links */}
             <nav className="flex flex-col items-center space-y-6 mt-16 text-lg">
-              <Link href="/" className="hover:text-[#f5f1e8]" onClick={() => setIsOpen(false)}>Home</Link>
-              <Link href="/about" className="hover:text-[#f5f1e8]" onClick={() => setIsOpen(false)}>About</Link>
-              <Link href="/services" className="hover:text-[#f5f1e8]" onClick={() => setIsOpen(false)}>Services</Link>
-              <Link href="/contact" className="hover:text-[#f5f1e8]" onClick={() => setIsOpen(false)}>Contact</Link>
+              <Link href="/#menu" className="hover:text-[#f5f1e8]" onClick={() => setIsOpen(false)}>Home</Link>
+              <Link href="#menu" className="hover:text-[#f5f1e8]" onClick={() => setIsOpen(false)}>About</Link>
+              <Link href="#offerings" className="hover:text-[#f5f1e8]" onClick={() => setIsOpen(false)}>Services</Link>
+              <Link href="#footer" className="hover:text-[#f5f1e8]" onClick={() => setIsOpen(false)}>Contact</Link>
             </nav>
           </motion.div>
         )}

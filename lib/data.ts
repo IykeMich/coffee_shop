@@ -1,4 +1,43 @@
-const data = {
+type Partners = {
+    name: string,
+    url: string
+}
+
+type NavLinks = {
+    name: string,
+    url: string
+}
+type Products = {
+    id: string
+    name: string
+    price: number
+    size: number
+    imageUrl: string
+
+}
+
+type Benefits = {
+    id: number
+    image: string
+    title: string
+    subtitle: string
+}
+
+type Offerings = {
+    id: number
+    image: string
+    title: string
+}
+
+type Data = {
+    navLinks: NavLinks[],
+    partners: Partners[],
+    products: Products[],
+    benefits: Benefits[],
+    offerings: Offerings[]
+}
+
+const data: Data = {
     navLinks: [
         {
             name: "Home",
