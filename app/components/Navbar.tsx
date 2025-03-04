@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="empty bg-coffee h-2 md:h-5 w-full"></div>
       <nav className=" nav-contents flex my-1 md:my-4 mx-2 md:mx-8">
         <div className="mobile-content flex md:hidden justify-between w-full items-center"> 
-          <Image src="./images/Logo.svg" alt="Logo" height={50} width={50} className="cursor-pointer w-8 h-8" />
+          <Image priority src="./images/Logo.svg" alt="Logo" height={50} width={50} className="cursor-pointer w-8 h-8" />
           <HamburgerMenu /> 
         </div>
         <div className="hidden md:flex justify-between w-full">

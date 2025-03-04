@@ -16,7 +16,7 @@ const BestSeller = () => {
 
         <div className="flex flex-col items-center justify-center pt-40 pb-24 space-y-8">
             <h1 className='text-[#A56D44] text-2xl lg:text-6xl tracking-wider leading-2.5'>OUR BEST SELLERS</h1>
-            <Image src="/Images/Best Seller.svg" alt="Best Sellers" width={200} height={200} />
+            <Image src="/Images/BestSeller.svg" alt="Best Sellers" width={200} height={200} />
         </div>
 
         <div id='menu' className="product-row grid grid-cols-2 md:gird-cols-3 lg:grid-cols-4 gap-4 md:gap-8 pt-8 pb-8 justify-between">

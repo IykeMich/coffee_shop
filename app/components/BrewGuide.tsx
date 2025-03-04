@@ -6,7 +6,7 @@ const BrewGuide = () => {
     <main className='bg-coffee w-full'>
         <div className="flex flex-col items-center justify-center pt-24 md:pt-32 pb-12 md:pb-24 space-y-8 mx-auto">
             <h1 className='text-[#f2f2f2] text-2xl lg:text-6xl tracking-wider leading-2.5 uppercase'>BREW GUIDE</h1>
-            <Image src="/Images/Best Seller.svg" alt="Best Sellers" width={200} height={200} />
+            <Image src="/Images/BestSeller.svg" alt="Best Sellers" width={200} height={200} />
         </div>
 
         {/* Video Player Section */}

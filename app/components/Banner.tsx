@@ -26,7 +26,7 @@ const Banner = () => {
             {" "}
             {/* Adjusted top position to allow overflow */}
             <Image
-              src="/images/banner.svg"
+              src="/banner.svg"
               alt="banner"
               height={150}
               width={150}

@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="logo">
                     <div className="flex space-x-1.5 items-center">
                         <div>
-                            <Image src="/images/logo 2.svg" alt='logo' height={60} width={70} 
+                            <Image src="/images/logo2.svg" alt='logo' height={60} width={70} 
                             className='text-[#f5f1e8] w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16' /> 
                         </div>
                         <div className='text-[#f5f1e8]'>
@@ -31,11 +31,13 @@ const Footer = () => {
                         <div className="items-center space-x-3 lg:space-x-5 flex">
                             <Phone className='w-4 md:w-6'/>
                             <Link href="tel:+2349039374531" className='text-xs md:text-sm font-light leading-1 cursor-pointer'>+2349039374531</Link>
+                            {/* <Link href="tel:+2349039374531" className='text-xs md:text-sm font-light leading-1 cursor-pointer'>+2349039374531</Link> */}
                         </div>
 
                         <div className="items-center space-x-3 lg:space-x-5 flex">
                             <MessageSquare className='w-4 md:w-6'/>
                             
+                            {/* <Link href="googlegmail://co?to=ikechukwuogbu321@gmail.com&subject=Your%20Subject&body=Your%20Message" className='text-xs md:text-sm font-light leading-1 cursor-pointer'>Ikechukwuogbu321@gmail.com</Link> */}
                             <Link href={gmailLink} target="_blank" rel="noopener noreferrer" className='text-xs md:text-sm font-light leading-1 cursor-pointer'>Ikechukwuogbu321@gmail.com</Link>
                         </div>
                             

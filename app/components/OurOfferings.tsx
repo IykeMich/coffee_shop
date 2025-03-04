@@ -8,7 +8,7 @@ const OurOfferings = () => {
       <div className="flex">
         <div className="flex flex-col items-center justify-center pt-40 pb-24 space-y-8 mx-auto">
           <h1 className='text-[#A56D44] text-2xl lg:text-6xl tracking-wider leading-2.5 uppercase'>OUR OFFERINGS</h1>
-          <Image src="/Images/Best Seller.svg" alt="Best Sellers" width={200} height={200} />
+          <Image src="/Images/BestSeller.svg" alt="Best Sellers" width={200} height={200} priority />
         </div>
       </div>
 
